@@ -138,7 +138,7 @@
                                     <constraint firstItem="BKa-DL-Hz2" firstAttribute="centerY" secondItem="0zL-3I-uBn" secondAttribute="centerY" id="zcj-p5-7ym"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sKG-lZ-TgQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="sKG-lZ-TgQ">
                                 <rect key="frame" x="20" y="90" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="3QK-NL-QVd"/>
@@ -157,6 +157,9 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Say something here..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="iNW-wb-MFP">
                                 <rect key="frame" x="20" y="170" width="335" height="427"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" keyboardKey="YES"/>
+                                </accessibility>
                                 <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -627,6 +630,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ki5-Y8-AEs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1444" y="713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8qI-R8-7aD">
